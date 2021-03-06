@@ -1,0 +1,43 @@
+body {
+  font-family: Quicksand, sans-serif;
+}
+.chart-wrapper{
+  text-align: center;
+  max-width: 500px;
+}
+h4{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.chartjs-legend {
+  list-style-type: none;
+  font-size: 0.875rem;
+  width: fit-content;
+  margin: 0.5rem auto;
+}
+.legend-item {
+  height: 1.5rem;
+  display: flex;
+}
+li {
+  padding: 0.25rem;
+}
+.label {
+  width: auto;
+}
+span {
+  cursor: pointer;
+  margin-right: 0.75rem;
+  border-radius: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+@media (--medium) {
+  .chart-wrapper h4 {
+    font-size: 1.5rem;
+  }
+  .chartjs-legend {
+    font-size: var(--font-size-base);
+  }
+}
